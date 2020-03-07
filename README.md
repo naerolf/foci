@@ -1,2 +1,2 @@
-# foci
- clustering for foci dStorm
+# Foci clustering tools
+Summary: clustering for foci dStorm
