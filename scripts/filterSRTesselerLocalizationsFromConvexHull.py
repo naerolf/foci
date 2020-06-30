@@ -158,7 +158,7 @@ def parseScientificNotation(string_s):
     (not equivalent), by replacing 'E' with a decimal separator '.'.
     """
     if string_s.find('E') >= 0:
-        float_line = float(string_s.split('E')[0].replace(',', '.'))
+        float_line = float(string_s.replace(',','.'))
     else:
         float_line = float(string_s)
     return float_line
